@@ -1,0 +1,3 @@
+/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build/CMakeFiles/Project.dir
+/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build/CMakeFiles/edit_cache.dir
+/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build/CMakeFiles/rebuild_cache.dir

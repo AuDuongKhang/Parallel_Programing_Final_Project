@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Project.dir/src/main.cc.o CMakeFiles/Project.dir/src/Project_generated_kernel.cu.o "CMakeFiles/Project.dir/src/custom/Project_generated_gpu-support.cu.o" -o Project  /usr/local/cuda/lib64/libcudart_static.a -ldl /usr/lib/x86_64-linux-gnu/librt.a /usr/local/cuda/lib64/libcudart_static.a -ldl /usr/lib/x86_64-linux-gnu/librt.a
