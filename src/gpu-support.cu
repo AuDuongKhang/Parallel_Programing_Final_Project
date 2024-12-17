@@ -1,4 +1,4 @@
-#include "gpu-support.h"
+#include "../includes/gpu-support.cuh"
 
 void GPU_Support::printDeviceInfo()
 {
@@ -15,4 +15,14 @@ void GPU_Support::printDeviceInfo()
     printf("L2 cache: %i bytes\n", devProv.l2CacheSize);
     printf("SMEM / one SM: %lu bytes\n", devProv.sharedMemPerMultiprocessor);
     printf("****************************\n");
+}
+
+void GPU_Support::checkLastCudaError()
+{
+    CHECK(cudaDeviceSynchronize());
+    cudaError_t err{cudaGetLastError()};
+    if (err != cudaSuccess) {
+        std::cerr << cudaGetErrorString(err) << std::endl;
+        std::exit(EXIT_FAILURE);
+    }
 }

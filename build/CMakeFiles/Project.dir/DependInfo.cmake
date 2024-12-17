@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/src/main.cc" "CMakeFiles/Project.dir/src/main.cc.o" "gcc" "CMakeFiles/Project.dir/src/main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -7,14 +7,22 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/CMakeLists.txt"
+  "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeSystem.cmake"
+  "CMakeFiles/Project.dir/src/Project_generated_activation.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_activation.cu.o.depend"
+  "CMakeFiles/Project.dir/src/Project_generated_dense_layer.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_dense_layer.cu.o.depend"
+  "CMakeFiles/Project.dir/src/Project_generated_gpu-support.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_gpu-support.cu.o.depend"
   "CMakeFiles/Project.dir/src/Project_generated_kernel.cu.o.cmake.pre-gen"
   "CMakeFiles/Project.dir/src/Project_generated_kernel.cu.o.depend"
-  "CMakeFiles/Project.dir/src/custom/Project_generated_gpu-support.cu.o.cmake.pre-gen"
-  "CMakeFiles/Project.dir/src/custom/Project_generated_gpu-support.cu.o.depend"
+  "CMakeFiles/Project.dir/src/Project_generated_load_mnist.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_load_mnist.cu.o.depend"
+  "CMakeFiles/Project.dir/src/Project_generated_main.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_main.cu.o.depend"
   "/usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.30/Modules/CMakeCInformation.cmake"
   "/usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
   "/usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
@@ -53,10 +61,18 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/Project.dir/src/Project_generated_main.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_activation.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_load_mnist.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_dense_layer.cu.o.cmake.pre-gen"
   "CMakeFiles/Project.dir/src/Project_generated_kernel.cu.o.cmake.pre-gen"
-  "CMakeFiles/Project.dir/src/custom/Project_generated_gpu-support.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_gpu-support.cu.o.cmake.pre-gen"
+  "CMakeFiles/Project.dir/src/Project_generated_main.cu.o.cmake"
+  "CMakeFiles/Project.dir/src/Project_generated_activation.cu.o.cmake"
+  "CMakeFiles/Project.dir/src/Project_generated_load_mnist.cu.o.cmake"
+  "CMakeFiles/Project.dir/src/Project_generated_dense_layer.cu.o.cmake"
   "CMakeFiles/Project.dir/src/Project_generated_kernel.cu.o.cmake"
-  "CMakeFiles/Project.dir/src/custom/Project_generated_gpu-support.cu.o.cmake"
+  "CMakeFiles/Project.dir/src/Project_generated_gpu-support.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

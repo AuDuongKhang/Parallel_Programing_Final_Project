@@ -1,6 +1,6 @@
 #ifndef SRC_CUSTOM_GPU_SUPPORT_H_
 #define SRC_CUSTOM_GPU_SUPPORT_H_
-#include <stdio.h>
+#include <iostream>
 #include <stdint.h>
 #include <cuda_runtime.h> 
 
@@ -58,6 +58,7 @@ struct GpuTimer
 class GPU_Support {
   public:
     void printDeviceInfo();
+    void checkLastCudaError();
 };
 
 #endif  // SRC_CUSTOM_GPU_SUPPORT_H_

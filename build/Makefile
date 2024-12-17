@@ -57,10 +57,10 @@ RM = /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project"
+CMAKE_SOURCE_DIR = "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build"
+CMAKE_BINARY_DIR = "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build/CMakeFiles" "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code/build/CMakeFiles" "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,30 +129,6 @@ Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/build
 .PHONY : Project/fast
 
-src/main.o: src/main.cc.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cc.o
-.PHONY : src/main.cc.o
-
-src/main.i: src/main.cc.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cc.i
-.PHONY : src/main.cc.i
-
-src/main.s: src/main.cc.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cc.s
-.PHONY : src/main.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +138,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Project"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 

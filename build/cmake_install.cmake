@@ -1,4 +1,4 @@
-# Install script for directory: /content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project
+# Install script for directory: /content/drive/MyDrive/Colab Notebooks/FinalPP/Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/content/drive/MyDrive/Colab Notebooks/Parallel Programming/Project/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/content/drive/MyDrive/Colab Notebooks/FinalPP/Code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
