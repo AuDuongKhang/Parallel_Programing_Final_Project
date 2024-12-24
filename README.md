@@ -52,6 +52,8 @@ Parameter to run file:
 - Mode = 6: GPU Implement with reduction tree.
 - Mode = 7: GPU Implement with reduction atomic.
 - Mode = 8: GPU Implement with Strassen algorithm (advanced matrix multiplication).
+- Mode = 9: GPU Implement with multiple kernel for different layer sizes. (Not already developed)
+- Mode = 10: GPU Implement with FP16 arithmetic.
 
 *argv[2]*: number of epochs (default epochs = 20).
 
