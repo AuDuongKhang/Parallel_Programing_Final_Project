@@ -6,13 +6,19 @@ project(MyCudaProject)
 find_package(CUDA REQUIRED)
 
 # Set CUDA flags (optional optimization flags)
-set(CUDA_NVCC_FLAGS "-O3 -gencode arch=compute_75,code=sm_75")  # Set sm_75 for Tesla T4 or similar GPUs
+set(CUDA_NVCC_FLAGS "-O3 -gencode arch=compute_75,code=sm_75 --extended-lambda")  # Set sm_75 for Tesla T4 or similar GPUs
 
 # Include CUDA directories
 include_directories(${CUDA_INCLUDE_DIRS})
 
+set(SOURCES
+    src/main.cu
+    src/load_mnist.cu
+    src/gpu_support.cu
+)
+
 # Add the source files and handle CUDA source files with nvcc
-cuda_add_executable(Project src/main.cu src/activation.cu src/load_mnist.cu src/dense_layer.cu src/kernel.cu src/gpu-support.cu)
+cuda_add_executable(Project ${SOURCES})
 
 # Link CUDA libraries
 target_link_libraries(Project ${CUDA_LIBRARIES})
