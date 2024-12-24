@@ -1,0 +1,1 @@
+download data from here: https://github.com/zalandoresearch/fashion-mnist

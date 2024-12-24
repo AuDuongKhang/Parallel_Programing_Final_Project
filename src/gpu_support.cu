@@ -1,4 +1,4 @@
-#include "../includes/gpu-support.cuh"
+#include "../includes/gpu_support.cuh"
 
 void GPU_Support::printDeviceInfo()
 {

@@ -1,6 +1,6 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "../includes/load_mnist.cuh"
-#include "../includes/stb_image_write.h"
+#include "../includes/stb_image_write.cuh"
 #include <algorithm>
 #include <cstdint>
 #include <fstream>
@@ -63,7 +63,6 @@ void MNISTDataSet::ReadMNISTData(const std::filesystem::path& image_file_path, c
     } else {
         throw std::runtime_error("Unable to open file!");
     }
-
 }
 
 // Flips the endianness of the given uint32_t for the MNIST data
